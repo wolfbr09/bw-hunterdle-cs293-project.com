@@ -24,7 +24,7 @@ jobs:
         run: |
           aws s3api create-bucket \
             --bucket bw-hunterdle-cs293-project.com \
-            --region us-east-1
+            --region us-east-2
 
           aws s3api put-public-access-block \
             --bucket bw-hunterdle-cs293-project.com \
