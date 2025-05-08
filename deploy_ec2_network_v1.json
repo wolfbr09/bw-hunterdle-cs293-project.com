@@ -318,8 +318,8 @@
                                     "Effect": "Allow",
                                     "Action": "s3:*",
                                     "Resource": [
-                                        "arn:aws:s3:::mys3website-ac",
-                                        "arn:aws:s3:::mys3website-ac/*"
+                                        "arn:aws:s3:::bw-hunterdle-cs293-project.com",
+                                        "arn:aws:s3:::bw-hunterdle-cs293-project.com/*"
                                     ]
                                 }
                             ]
