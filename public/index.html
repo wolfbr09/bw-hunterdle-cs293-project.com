@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Test Page</title>
-</head>
-<body>
-    <h1>This is Working!!! But updated again!! test</h1>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Monster Hunterdle</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Monster Hunter</h1>
+		
+		<button type="button" class="collapsible">Monster Selector</button>
+		<div class="content">
+			
+			<label for="monsters">Choose a monster:</label>
+			<select name="monsters" id="monsters" onchange="changeSelectedMonster()">
+			</select>
+			
+			<table>
+				<tr id="monsterSelectorHeadings">
+					
+				</tr>
+				<tr id="selectedMonsterData">
+				</tr>
+			</table>
+			
+			<img id="selectedMonsterImg" class="large_icon" onerror="this.src='img/Unknown_icon.webp';this.onerror=null;">
+		</div>
+		
+		<button type="button" class="collapsible">Monster List</button>
+		<div class="content">
+			<table id="monsterTable">
+				<tr id="monsterTableHeadings">
+				</tr>
+			</table>
+		</div>
+	</body>
 </html>

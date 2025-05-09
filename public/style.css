@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+	background-color: #fff;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+div {
+	border: 2px solid black;
+}
+
+.small_icon {
+	height: 50px;
+}
+
+.large_icon {
+	height: 150px;
+}
+
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+	font-weight: bold;
+}
+
+.active, .collapsible:hover{
+	background-color: #ccc;
+}
+
+.content {
+	padding: 0 18px;
+	display: block;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
