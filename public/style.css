@@ -43,7 +43,7 @@ h1 {
 	font-weight: bold;
 }
 
-.active,.collapsible:hover{
+.active, .collapsible:hover{
 	background-color: #ccc;
 }
 
@@ -74,12 +74,12 @@ h1 {
 	border: 1px solid white;
 }
 
-.darkMode td,th {
+.darkMode td, .darkMode th {
 	border: 1px solid white;
 	padding: 10px;
 }
 
-.darkMode.collapsible {
+.darkMode .collapsible {
 	background-color: black;
 	color: white;
 	cursor: pointer;
@@ -92,11 +92,11 @@ h1 {
 	font-weight: bold;
 }
 
-.darkMode.active,.collapsible:hover{
+.darkMode.active, .darkMode.collapsible:hover{
 	background-color: #444;
 }
 
-.darkMode.content{
+.darkMode .content{
 	padding: 0 18px;
 	display: block;
 	overflow: hidden;
@@ -111,7 +111,7 @@ h1 {
 	color: #eee;
 }
 
-.darkMode select,option{
+.darkMode select, .darkMode option{
 	background-color: #333;
 	color: white;
 }
