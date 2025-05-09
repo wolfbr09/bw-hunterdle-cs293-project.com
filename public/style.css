@@ -79,7 +79,7 @@ h1 {
 	padding: 10px;
 }
 
-.darkMode .collapsible {
+.darkMode.collapsible {
 	background-color: black;
 	color: white;
 	cursor: pointer;
@@ -92,11 +92,11 @@ h1 {
 	font-weight: bold;
 }
 
-.darkMode .active,.collapsible:hover{
+.darkMode.active,.collapsible:hover{
 	background-color: #444;
 }
 
-.darkMode .content{
+.darkMode.content{
 	padding: 0 18px;
 	display: block;
 	overflow: hidden;
