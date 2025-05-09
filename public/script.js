@@ -41,7 +41,7 @@ let monsters =
 	{name: "Xu Wu", generation: 6, min_size: 1242.70, max_size: 1745.37, monster_class: monst_classes[8], game_introduced: games[12], icon_path: ""},
 	{name: "Yian Kut-Ku", generation: 1, min_size: 449.3, max_size: 1233.23, monster_class: monst_classes[6], game_introduced: games[0], icon_path: ""},
 	{name: "Zoh Shia", generation: 6, min_size: 4623.59, max_size: 4623.59, monster_class: monst_classes[2], game_introduced: games[12], icon_path: ""},
-	{name: "Legiacrus", generation: 3, min_size: 2330.7, max_size: 3310.6, monster_class: monst_classes[3], game_introduced: games[4], icon_path: ""},
+	//{name: "Legiacrus", generation: 3, min_size: 2330.7, max_size: 3310.6, monster_class: monst_classes[3], game_introduced: games[4], icon_path: ""},
 ];
 
 // loads tables
