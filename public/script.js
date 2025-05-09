@@ -204,3 +204,7 @@ function sortTable(n) {
 	}
   }
 }
+
+function toggleDarkMode(){
+	document.body.classList.toggle("darkMode");
+}

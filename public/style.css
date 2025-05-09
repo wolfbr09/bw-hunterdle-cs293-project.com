@@ -22,10 +22,6 @@ h1 {
 	font-size: 50px;
 }
 
-div {
-	border: 2px solid black;
-}
-
 .small_icon {
 	height: 50px;
 }
@@ -58,4 +54,64 @@ div {
 	background-color: #f1f1f1;
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
+}
+
+#darkModeButton {
+	justify-content: flex-end;
+}
+
+/* Dark Mode */
+
+.darkMode {
+	text-align: center;
+	background-color: #333;
+	color: white;
+}
+
+.darkMode table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+}
+
+.darkMode td,th {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.darkMode .collapsible {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+	font-weight: bold;
+}
+
+.darkMode .active, .collapsible:hover{
+	background-color: #444;
+}
+
+.darkMode .content{
+	padding: 0 18px;
+	display: block;
+	overflow: hidden;
+	background-color: #555;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+
+.darkMode #darkModeButton {
+	justify-content: flex-end;
+	background-color: #555;
+	color: #eee;
+}
+
+.darkMode select,option{
+	background-color: #333;
+	color: white;
 }
